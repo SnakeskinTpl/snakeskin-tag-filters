@@ -164,6 +164,3 @@ Session.vim
 .netrwhist
 # auto-generated tag files
 tags
-
-index.js
-index.d.ts

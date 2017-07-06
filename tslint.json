@@ -1,0 +1,109 @@
+{
+  "exclude": [
+    "node_modules/**/*",
+    "ts-definitions/typings/**/*"
+  ],
+  "rules": {
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "private-static-field",
+          "protected-static-field",
+          "public-static-field",
+          "private-static-method",
+          "protected-static-method",
+          "public-static-method",
+          "private-instance-field",
+          "protected-instance-field",
+          "public-instance-field",
+          "private-constructor",
+          "protected-constructor",
+          "public-constructor",
+          "private-instance-method",
+          "protected-instance-method",
+          "public-instance-method"
+        ]
+      }
+    ],
+    "no-internal-module": true,
+    "curly": true,
+    "no-conditional-assignment": true,
+    "no-construct": true,
+    "no-var-keyword": true,
+    "no-misused-new": true,
+    "no-shadowed-variable": true,
+    "no-string-throw": true,
+    "no-unsafe-finally": true,
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "typeof-compare": true,
+    "radix": true,
+    "use-isnan": true,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "prefer-const": true,
+
+    "max-classes-per-file": [true, 1],
+    "eofline": true,
+    "indent": [
+      true,
+      "tabs"
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
+    "no-trailing-whitespace": true,
+    "no-consecutive-blank-lines": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "arrow-parens": true,
+    "new-parens": true,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "object-literal-shorthand": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-whitespace",
+      "check-catch",
+      "check-finally",
+      "check-else"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case"
+    ],
+    "array-type": [true, "array-simple"],
+    "arrow-return-shorthand": true,
+    "comment-format": [true, "check-space", "check-uppercase"],
+    "import-spacing": true,
+    "no-parameter-properties": true
+  }
+}

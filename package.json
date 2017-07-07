@@ -1,6 +1,6 @@
 {
   "name": "snakeskin-tag-filters",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Обертка для удобного добавления фильтров директивы \"tag\"",
   "main": "index.js",
   "typings": "index.d.ts",

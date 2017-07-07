@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Обертка для удобного добавления фильтров директивы \"tag\"",
   "main": "index.js",
+  "typings": "index.d.ts",
   "repository": "git@github.com:SnakeskinTpl/snakeskin-tag-filters.git",
   "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
   "license": "MIT",

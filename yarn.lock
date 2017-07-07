@@ -169,6 +169,10 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
+collection.js@^6.0.0-beta.19:
+  version "6.0.0-beta.19"
+  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.0.0-beta.19.tgz#861eb9c9185481be3b5fe973ac80b0d35b365b62"
+
 colors@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
@@ -751,6 +755,16 @@ strip-ansi@^4.0.0:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+
+sugar-core@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/sugar-core/-/sugar-core-2.0.4.tgz#9db0730e6c47eb7d28184a79c4ab18b2b7946ca0"
+
+sugar@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/sugar/-/sugar-2.0.4.tgz#79a6fa4dabc587fb855a52ee7176dd042bf757b0"
+  dependencies:
+    sugar-core "^2.0.0"
 
 supports-color@^2.0.0:
   version "2.0.0"
